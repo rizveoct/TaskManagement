@@ -6,6 +6,7 @@ using TaskManagement.Application.Common.Interfaces;
 using TaskManagement.Domain.ValueObjects;
 using TaskStatus = TaskManagement.Domain.ValueObjects.TaskStatus;
 
+
 namespace TaskManagement.Application.Features.Boards.Commands;
 
 public record UpdateBoardStatusesCommand(Guid BoardId, IEnumerable<string> Statuses) : IRequest;
