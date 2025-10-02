@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using TaskManagement.Application.Common.Interfaces;
 using TaskManagement.Application.Features.Tasks.Commands;
 
+
 namespace TaskManagement.Application.Features.Tasks.Queries;
 
 public record GetTaskDetailsQuery(Guid TaskId) : IRequest<TaskDetailsDto>;
