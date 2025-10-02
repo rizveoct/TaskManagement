@@ -5,6 +5,8 @@ using Microsoft.EntityFrameworkCore;
 using TaskManagement.Application.Common.Interfaces;
 using TaskManagement.Domain.Entities;
 using TaskManagement.Domain.ValueObjects;
+using TaskStatus = TaskManagement.Domain.ValueObjects.TaskStatus;
+
 
 namespace TaskManagement.Application.Features.Tasks.Commands;
 

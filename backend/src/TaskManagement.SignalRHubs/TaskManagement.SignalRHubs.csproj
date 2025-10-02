@@ -8,4 +8,8 @@
     <ProjectReference Include="../TaskManagement.Application/TaskManagement.Application.csproj" />
     <ProjectReference Include="../TaskManagement.Domain/TaskManagement.Domain.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
 </Project>

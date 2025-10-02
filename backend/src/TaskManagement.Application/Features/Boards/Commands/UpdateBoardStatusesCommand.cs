@@ -4,6 +4,8 @@ using MediatR;
 using Microsoft.EntityFrameworkCore;
 using TaskManagement.Application.Common.Interfaces;
 using TaskManagement.Domain.ValueObjects;
+using TaskStatus = TaskManagement.Domain.ValueObjects.TaskStatus;
+
 
 namespace TaskManagement.Application.Features.Boards.Commands;
 
